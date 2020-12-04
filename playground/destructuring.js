@@ -1,5 +1,5 @@
 
-Object destructuring
+// Object destructuring
 
 
 const person = {
@@ -32,7 +32,7 @@ const { name: publisherName = 'Self-Published' } = book.publisher;
 console.log(publisherName); // Penguin, Self-Published
 
 
-Array destructuring
+// Array destructuring
 
 
 const address = ['1299 S Juniper Street', 'Philadelphia', 'Pennsylvania', '19147'];
