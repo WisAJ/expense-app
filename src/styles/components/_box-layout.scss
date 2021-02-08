@@ -21,6 +21,47 @@ margin: 0 0 $m-size 0;
 line-height: 1;
 }
 
+.dashboard  {
+    height: 100vh;
+    position: relative;
+}
+
+.create-page {
+    height: 100vh;
+    position: relative;
+}
+
+.dashboard::after {
+    content: "";
+    background-image: url('/images/11107.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+    top: -30px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+}
+
+
+.create-page::after {
+    content: "";
+    background-image: url('/images/hand-putting.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.4;
+    top: -30px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+}
+
+
+
 
 
 
