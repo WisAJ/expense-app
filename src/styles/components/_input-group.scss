@@ -1,0 +1,29 @@
+.input-group {
+display: flex;
+flex-direction: column;
+margin-bottom: $m-size;
+@media (min-width: $desktop-breakpoint) {
+    flex-direction: row;
+    margin-bottom: $l-size;
+    }
+}
+
+.input-group__item {
+    margin-bottom: $s-size;
+    @media (min-width: $desktop-breakpoint) {
+        margin: 0 $m-size 0  0 ;
+        }
+}
+
+.text-input {
+    border: 1px solid #cacccd;
+    height: 50px;
+    font-weight: 300;
+    font-size: $fs-large;
+    padding:$s-size;
+}
+
+.textarea{
+    @extend .text-input;
+    height: 10rem;
+}
