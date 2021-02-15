@@ -1,0 +1,13 @@
+.modal {
+  background: $lite-grey;
+  color: rgb(146, 37, 37);
+  max-width: 80rem;
+  outline: none;
+  padding: $l-size;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.modal__button{
+  margin-left: 1%;
+}
